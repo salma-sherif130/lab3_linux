@@ -1,0 +1,3 @@
+this is log file
+ERROR message asdad
+empty message asdad
