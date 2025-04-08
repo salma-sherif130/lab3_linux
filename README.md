@@ -119,3 +119,302 @@
   118  git add history >> README.md
   119  history >>README.md
 # lab3_linux
+    1  حصي
+    2  pwd
+    3  cat /etc/shells
+    4  env
+    5  echo "$shell"
+    6  echo "$SHELL"
+    7  env
+    8  cp ~/.bashrc ~/.bashrc.bak
+    9  sudo nano ~/.bashrc
+   10  source ~/.bashrc
+   11  sudo nano ~/.bashrc
+   12  source ~/.bashrc
+   13  gedit ~/.bashrc
+   14  ~/.bashrc
+   15  sudo ~/.bashrc
+   16  mkdir -p ~/.script
+   17  echo ". ~/script/yourscript.sh" >> ~/.bashrc
+   18  source ~/.bashrc
+   19  vi ~/.bashrc
+   20  source ~/.bashrc
+   21  vi ~/.bashrc
+   22  source ~/.bashrc
+   23  ls ~/.bashrc
+   24  ls ~/.bashrc > file_list.txt.
+   25  echo file_list.txt
+   26  cat file_list.txt.
+   27  cat file_list.txt
+   28  vi ~/.bashrc
+   29  ls *.txt
+   30  ls *.txt,
+   31  ls *.txt.
+   32  ls >>file_list.txt.
+   33  cat file_list.txt.
+   34  ls | grep report
+   35  cd ..
+   36  ls
+   37  cd ..
+   38  ls
+   39  head home
+   40  head etc/passwd
+   41  tail etc/passwd
+   42  cut -d',' -f2 data.csv
+   43  grep "ERROR" log.txt
+   44  ls |grep log.txt
+   45  ls etc |grep log.txt
+   46  ls etc
+   47  ls bin
+   48  current_user=$(whoami)
+   49  echo $current_user
+   50  echo "salma" | tr 'a-z' 'A-Z'
+   51  ls log.txt
+   52  find / -name "log.txt" 2>/dev/null
+   53  echo "this is log file">file.txt
+   54  sudo echo "this is log file" >log.txt
+   55  cat log.txt
+   56  cd home
+   57  cd ubuntu
+   58  echo "this is log file" >log.txt
+   59  echo "ERROR message asdad" >>log.txt
+   60  echo "empty message asdad" >>log.txt
+   61  grep "ERROR" log.txt
+   62  echo "student,id,gradee" >data.csv
+   63  echo "salma,20201085,A" >>data.csv
+   64  echo "sara,20201085,B" >>data.csv
+   65  cut -d',' -f2 data.csv
+   66  ps cat
+   67  catps
+   68  cat ps
+   69  ps -e
+   70  ps -e |grep tty
+   71  vi ~/.bashrc
+   72  source ~/.barshrc
+   73  source ~/.bashrc
+   74  ls -l data
+   75  ls -l data.csv
+   76  ls data.csv
+   77  ls -las
+   78  ls -l
+   79  ls -la
+   80  ls -laS
+   81  grep -c "success" file_list.txt.
+   82  echo success >>file
+   83  echo play>>file
+   84  echo success>>file
+   85  dmesg
+   86  dmesg file
+   87  dmesg >new
+   88  ls new
+   89  head -20 new
+   90  head 20 new
+   91  cat new
+   92  dmesg 2>new
+   93  cat new
+   94  head -20 new
+   95  dmesg file
+   96  pwd
+   97  sudo dmesg>output
+   98  cat output
+   99  head -20 output
+  100  echo "# Lab2_Lin" >> README.md
+  101  git init
+  102  git add README.md
+  103  git commit -m "first commit"
+  104  git branch -M main
+  105  git remote add origin https://github.com/salma-sherif130/Lab2_Lin.git
+  106  git push -u origin main
+  107  git commit -m "first commit"
+  108  git config --global user.email "salma.sherif130@gmail.com"
+  109  git config --global user.name "salma-sherif130"
+  110  git branch -M main
+  111  git remote add origin https://github.com/salma-sherif130/Lab2_Lin.git
+  112  git config --list
+  113  git add .
+  114  git commit -m "Initial commit of Multipas code"
+  115  git push -u origin main
+  116  git remote add origin https://github.com/salma-sherif130/Lab2_Lin.git
+  117  history
+  118  git add history >> README.md
+  119  history >>README.md
+  120  git add README.md
+  121  git push -u origin main
+  122  history
+  123  useradd Salma -c "salma sherif" -m -p islam
+  124  pwd
+  125  cd..
+  126  cd .
+  127  pwd
+  128  cd ..
+  129  pwd
+  130  useradd Salma -c "salma sherif" -m -p islam
+  131  sudo useradd Salma -c "salma sherif" -m -p islam
+  132  sudo useradd baduser -c "Bad User" -m -p baduser
+  133  pwd
+  134  ls
+  135  cat
+  136  sudo groupadd -g 30000 pgroup
+  137  sudo groupadd badgroup
+  138  sudo usermod -aG pgroup islam
+  139  sudo usermod -aG pgroup Salma
+  140  passwd Salma
+  141  sudo passwd Salma
+  142  sudo chage -M 30 islam
+  143  sudo chage -M 30 Salma
+  144  sudo chage -l Salma
+  145  sudo passwd -l baduser
+  146  sudo su-
+  147  sudo su -
+  148  pwd
+  149  mkdir myteam
+  150  sudo mkdir myteam
+  151  sudo chmod 500 myteam
+  152  su - Salma
+  153  pwd
+  154  ls
+  155  mkdir myteam
+  156  ls
+  157  chmod u=rw,g=wx,o=x oldpasswd
+  158  cd myteam
+  159  sudo cd myteam
+  160  chmod 755 /home/myteam
+  161  sudo chmod 755 /home/myteam
+  162  cd myteam
+  163  pwd
+  164  touch oldpasswd
+  165  sudo touch oldpasswd
+  166  sudo chmod u=rw,g=wx,o=x oldpasswd
+  167  ls -l oldpasswd
+  168  pwd
+  169  ls
+  170  cd ..
+  171  ls
+  172  cd ubuntu 
+  173  ls
+  174  rm -r baduser
+  175  cd ..
+  176  rm -r baduser
+  177  sudo rm -r baduser
+  178  ls
+  179  umask 0777
+  180  mkdir test
+  181  sudo mkdir test
+  182  sudo touch testfile
+  183  ls -l test
+  184  ls -l testfile
+  185  sudo umask 0777
+  186  umask 0777
+  187  umask
+  188  ls -l test
+  189  ls -l testfile
+  190  umask 000
+  191  ls -l test
+  192  ls -l testfile
+  193  touch tst
+  194  sudo touch tst
+  195  sudo mkdir tstt
+  196  ls -l tst
+  197  ls -l tstt
+  198  umask
+  199  ls -ld tst
+  200  ls -ld tstt
+  201  find ~ -type f -mtime -2
+  202  cd ubuntu
+  203  mkdir t1
+  204  touch t2
+  205  ls -ld t1
+  206  ls -l t2
+  207  umask 0777
+  208  touch tsy
+  209  ls -l tsy
+  210  mkdir tstdir
+  211  ls -l tstdir
+  212  cd ..
+  213  find ~ -type f -mtime -2
+  214  find /etc -user root
+  215  find ~ -type d
+  216  find / -name .profile
+  217  sudo find / -name .profile
+  218  file /etc/passwd
+  219  file /dev/pts/0
+  220  file /etc
+  221  file /dev/sda
+  222  ls -i / /etc
+  223  ls -i / /etc/hosts
+  224  sudo cp  /etc/passwd  newone
+  225  diff /etc/passwd newone
+  226  cmp /etc/passwd newone
+  227  echo "hi">> newone
+  228  sudo echo "hi">> newon
+  229  sudo echo "hi">> newone
+  230  sudo cp /etc/passwd /ubunto/sara
+  231  cd ubunto
+  232  diff /etc/passwd ubuntu/sara
+  233  echo "hi" >> sara
+  234  pwd
+  235  sudo echo "hi" >> sara
+  236  echo "hi" >> sara
+  237  cd ubuntu
+  238  echo "hi" >> sara
+  239  echo "hi" >>sara
+  240  chmod 777 sara
+  241  sudo chmod 777 sara
+  242  echo "hi" >>sara
+  243  diff /etc/passwd ubuntu/sara
+  244  diff /etc/passwd sara
+  245  cmp /etc/passwd sara
+  246  pwd
+  247  cd ..
+  248  sudo ln -s /etc/passwd /boot/passwd_symlink
+  249  ls -l /boot/passwd_symlink
+  250  sudo ln /etc/passwd /boot/hardlink
+  251  echo "# lab3_linux" >> README.md
+  252  pwd
+  253  ubuntu
+  254  cd ubuntu
+  255  echo "# lab3_linux" >> README.md
+  256  history >> lab3file
+  257  cat lab3file
+  258  sudo cat lab3file
+  259  git init
+  260  git commit -m "first commit"
+  261  git branch -M main
+  262  git remote add origin https://github.com/salma-sherif130/lab3_linux.git
+  263  git push -u origin main
+  264  git add lab3file
+  265  git lab3file
+  266  git --help
+  267  git add lab3file
+  268  history
+  269  git push -u origin main
+  270  history
+  271  git remote -v
+  272  git init
+  273  git remote add origin https://github.com/salma-sherif130/lab3_linux.git
+  274  git add .
+  275  git commit -m "Day 2 commands"
+  276  git branch -M main  
+  277  git push -u origin main
+  278  git init
+  279  git push -u origin main
+  280  git pull -u origin main
+  281  git push -u origin main
+  282  git init
+  283  git remote add origin https://github.com/salma-sherif130/lab3_linux.git
+  284  git add .
+  285  rm lab3file
+  286  git add .
+  287  rm tsy
+  288  git add .
+  289  rm tstdir
+  290  rmdir tstdir
+  291  git add .
+  292  git commit -m "Day 2 commands"
+  293  git branch -M main  
+  294  git push -u origin main
+  295  git remote remove origin
+  296  git remote add origin https://github.com/salma-sherif130/lab3_linux.git
+  297  git remote -v
+  298  git push -u origin main
+  299  history >>README.md
